@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8572AC282C791E62007A09FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8572AC272C791E62007A09FE /* main.cpp */; };
+		8597B1E12C82B673003AFCA7 /* ejercicio02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8597B1E02C82B673003AFCA7 /* ejercicio02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		8572AC242C791E62007A09FE /* POO-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "POO-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8572AC272C791E62007A09FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8578B6922C7D281B00A53A1F /* Teoria.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Teoria.cpp; sourceTree = "<group>"; };
+		8578B6932C7D281B00A53A1F /* Teoria.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Teoria.hpp; sourceTree = "<group>"; };
+		8597B1DE2C82B01D003AFCA7 /* ejercicio01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ejercicio01.cpp; sourceTree = "<group>"; };
+		8597B1E02C82B673003AFCA7 /* ejercicio02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ejercicio02.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,29 @@
 		8572AC262C791E62007A09FE /* POO-1 */ = {
 			isa = PBXGroup;
 			children = (
+				8597B1DD2C82AFC8003AFCA7 /* Laboratorio-B */,
+				8578B6912C7D27D500A53A1F /* Teoria */,
 				8572AC272C791E62007A09FE /* main.cpp */,
 			);
 			path = "POO-1";
+			sourceTree = "<group>";
+		};
+		8578B6912C7D27D500A53A1F /* Teoria */ = {
+			isa = PBXGroup;
+			children = (
+				8578B6922C7D281B00A53A1F /* Teoria.cpp */,
+				8578B6932C7D281B00A53A1F /* Teoria.hpp */,
+			);
+			path = Teoria;
+			sourceTree = "<group>";
+		};
+		8597B1DD2C82AFC8003AFCA7 /* Laboratorio-B */ = {
+			isa = PBXGroup;
+			children = (
+				8597B1DE2C82B01D003AFCA7 /* ejercicio01.cpp */,
+				8597B1E02C82B673003AFCA7 /* ejercicio02.cpp */,
+			);
+			path = "Laboratorio-B";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8572AC282C791E62007A09FE /* main.cpp in Sources */,
+				8597B1E12C82B673003AFCA7 /* ejercicio02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
